@@ -41,6 +41,14 @@
   height: 107px;
 }
 
+.content__card-link:active {
+  background-color: #545050;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
+}
+
 .content__video-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -49,8 +57,6 @@
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 0px;
   gap: 6px;
   width: 200px;
   height: 101px;
@@ -65,10 +71,11 @@
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-bottom: 6px;
 }
 
 .content__video-card-description {
@@ -97,7 +104,7 @@ li {
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
