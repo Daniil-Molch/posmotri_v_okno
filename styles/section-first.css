@@ -66,6 +66,7 @@
   border-right: none;
   border-bottom: 1px solid #fff;
   border-left: none;
+  cursor: text;
 }
 
 .search-form__textfield:focus {
@@ -83,7 +84,7 @@
 .search-form__label {
   display: flex;
   gap: 5px;
-  cursor: text;
+  cursor: pointer;
 }
 
 .search-form__label:hover {
@@ -152,11 +153,4 @@
 
 .search-form__submit-button {
   width: 194px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #fff;
-  flex: none;
 }

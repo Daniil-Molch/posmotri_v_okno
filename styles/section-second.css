@@ -1,7 +1,7 @@
 .content__details {
   inline-size: 100%;
   contain: strict;
-  width: 399px;
+  min-width: 399px;
   height: 536px;
 }
 
@@ -13,8 +13,6 @@
   line-height: 94%;
   text-transform: uppercase;
   color: #fff;
-  flex: none;
-  order: 0;
   margin-bottom: 26px;
 }
 
@@ -56,6 +54,8 @@
 
 .content__card-link:hover {
   text-decoration: underline;
+  text-decoration-color: #fff;
+  text-underline-offset: 7px;
 }
 
 .content__card-link:focus {
@@ -106,5 +106,5 @@
 }
 
 .more-button {
-  width: 100%;
+  min-width: 398px;
 }
